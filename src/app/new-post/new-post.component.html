@@ -1,0 +1,14 @@
+<main>
+    <h1 class="title">Create a new post</h1>
+    <form>
+        <mat-form-field appearance="fill" class="title-input">
+            <mat-label>Title</mat-label>
+            <input [(ngModel)]="titleInput" required type="text" matInput name="title-input">
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="desc-input">
+            <mat-label>Desctiption</mat-label>
+            <textarea [(ngModel)]="descInput" required cols="30" rows="10" matInput name="desc-input"></textarea>
+        </mat-form-field>
+        <button type="submit" mat-raised-button color="accent" (click)="submit()">Post</button>
+    </form>
+</main>

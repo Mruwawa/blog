@@ -1,0 +1,11 @@
+app-main {
+    height: 100vh;
+}
+
+mat-sidenav-container {
+    height: calc(100% - 4rem);
+}
+
+.container {
+    height: 100%;
+}

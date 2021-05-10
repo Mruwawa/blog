@@ -1,0 +1,30 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title
+{
+    margin-top:2rem;
+    font-size: 2rem;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+form .title-input
+{
+    width: 30%;
+}
+
+form .desc-input
+{
+    width: 40%;
+}
